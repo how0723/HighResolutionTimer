@@ -1,1 +1,1 @@
-#HighResolutionTimer for windows and linux 
+#High Resolution Timer for windows and linux 
