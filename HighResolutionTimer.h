@@ -1,18 +1,4 @@
-﻿//////////////////////////////////////////////////////////////////////////////
-// Timer.h
-// =======
-// High Resolution Timer.
-// This timer is able to measure the elapsed time with 1 micro-second accuracy
-// in both Windows, Linux and Unix system 
-//
-//  AUTHOR: Song Ho Ahn (song.ahn@gmail.com)
-// CREATED: 2003-01-13
-// UPDATED: 2017-03-30
-//
-// Copyright (c) 2003 Song Ho Ahn
-//////////////////////////////////////////////////////////////////////////////
-
-#ifndef TIMER_H_DEF
+﻿#ifndef TIMER_H_DEF
 #define TIMER_H_DEF
 
 #if defined(WIN32) || defined(_WIN32)   // Windows system specific
