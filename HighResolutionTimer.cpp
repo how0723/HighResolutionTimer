@@ -1,4 +1,10 @@
-﻿HighResolutionTimer::HighResolutionTimer()
+﻿#include "HighResolutionTimer.h"
+#include <stdlib.h>
+
+///////////////////////////////////////////////////////////////////////////////
+// constructor
+///////////////////////////////////////////////////////////////////////////////
+HighResolutionTimer::HighResolutionTimer()
 {
 #if defined(WIN32) || defined(_WIN32)
     QueryPerformanceFrequency(&frequency);
